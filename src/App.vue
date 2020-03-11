@@ -1,17 +1,22 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <LocationButton />
+    <LocationDisplay />
+    <DistanceComponent />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import LocationButton from './components/location-button.vue'
+import LocationDisplay from './components/location-display.vue'
+import DistanceComponent from './components/distance-component.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    LocationButton,
+    LocationDisplay,
+    DistanceComponent
   }
 }
 </script>
