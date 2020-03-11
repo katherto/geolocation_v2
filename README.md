@@ -1,4 +1,6 @@
-# geolocation
+# Geolocation V2
+
+See [https://geolocation-v2.netlify.com/](https://geolocation-v2.netlify.com/) for demo version
 
 ## Project setup
 ```
